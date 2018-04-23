@@ -6,7 +6,10 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3022ea37-e51b-4d1d-8143-a1cf23f0f499" name="Default" comment="" />
+    <list default="true" id="3022ea37-e51b-4d1d-8143-a1cf23f0f499" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data.properties" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -81,20 +84,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Config.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/gotohope/forgive/util/Config.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="3" column="36" lean-forward="true" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="data.properties" pinned="false" current-in-tab="false">
+      <file leaf-file-name="data.properties" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/data.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="12" lean-forward="true" selection-start-column="12" selection-end-column="12" />
+            <state relative-caret-position="25">
+              <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -119,6 +113,9 @@
     <replaceStrings>
       <replace>path + &quot;</replace>
     </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="myGradleHomes">
@@ -519,15 +516,15 @@
         <option value="$PROJECT_DIR$/src/main/java/cn/gotohope/forgive/pojo/GameBest.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/gotohope/forgive/pojo/ChallengeBest.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/gotohope/forgive/util/Helper.java" />
-        <option value="$PROJECT_DIR$/src/test/java/cn/gotohope/forgive/test/service/UserServiceTest.java" />
         <option value="$PROJECT_DIR$/src/main/resources/applicationContext.xml" />
         <option value="$PROJECT_DIR$/src/main/java/cn/gotohope/forgive/service/impl/GameServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/gotohope/forgive/service/impl/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/resources/springmvc.xml" />
         <option value="$PROJECT_DIR$/src/main/java/cn/gotohope/forgive/controller/api/AndroidController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/index/index.jsp" />
-        <option value="$PROJECT_DIR$/src/main/resources/data.properties" />
         <option value="$PROJECT_DIR$/src/main/java/cn/gotohope/forgive/util/Config.java" />
+        <option value="$PROJECT_DIR$/src/test/java/cn/gotohope/forgive/test/service/UserServiceTest.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/data.properties" />
       </list>
     </option>
   </component>
@@ -550,6 +547,7 @@
     <option name="width" value="1239" />
     <option name="height" value="845" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -775,9 +773,55 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.UserServiceTest.testRegister">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="UserServiceTest.testLogin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="forgive-back-java_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.gotohope.forgive.test.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="cn.gotohope.forgive.test.service" />
+      <option name="MAIN_CLASS_NAME" value="cn.gotohope.forgive.test.service.UserServiceTest" />
+      <option name="METHOD_NAME" value="testLogin" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="UserServiceTest.testRegister" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="forgive-back-java_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.gotohope.forgive.test.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="cn.gotohope.forgive.test.service" />
+      <option name="MAIN_CLASS_NAME" value="cn.gotohope.forgive.test.service.UserServiceTest" />
+      <option name="METHOD_NAME" value="testRegister" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -892,6 +936,17 @@
         </option>
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Tomcat Server.Tomcat 9" />
+      <item itemvalue="JUnit.UserServiceTest.testLogin" />
+      <item itemvalue="JUnit.UserServiceTest.testRegister" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.UserServiceTest.testRegister" />
+        <item itemvalue="JUnit.UserServiceTest.testLogin" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -905,23 +960,11 @@
       <updated>1524375841758</updated>
       <workItem from="1524375845284" duration="36000" />
       <workItem from="1524375907339" duration="39463000" />
-      <workItem from="1524476642054" duration="506000" />
+      <workItem from="1524476642054" duration="1127000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="GameServiceTest - 2018.04.22 at 20h 45m 27s.xml">
-      <configuration name="GameServiceTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserServiceTest_testResetPassword - 2018.04.22 at 23h 55m 07s.xml">
-      <configuration name="UserServiceTest.testResetPassword" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserServiceTest_testLogin - 2018.04.23 at 01h 38m 49s.xml">
-      <configuration name="UserServiceTest.testLogin" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserServiceTest_testLogin - 2018.04.23 at 01h 45m 23s.xml">
-      <configuration name="UserServiceTest.testLogin" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="UserServiceTest_testLogin - 2018.04.23 at 01h 46m 16s.xml">
       <configuration name="UserServiceTest.testLogin" configurationId="JUnit" />
     </history-entry>
@@ -940,9 +983,21 @@
     <history-entry file="UserServiceTest_testLogin - 2018.04.23 at 01h 56m 07s.xml">
       <configuration name="UserServiceTest.testLogin" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="UserServiceTest_testLogin - 2018.04.23 at 18h 00m 12s.xml">
+      <configuration name="UserServiceTest.testLogin" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserServiceTest_testRegister - 2018.04.23 at 18h 00m 37s.xml">
+      <configuration name="UserServiceTest.testRegister" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserServiceTest_testRegister - 2018.04.23 at 18h 00m 53s.xml">
+      <configuration name="UserServiceTest.testRegister" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserServiceTest_testRegister - 2018.04.23 at 18h 02m 36s.xml">
+      <configuration name="UserServiceTest.testRegister" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40005000" />
+    <option name="totallyTimeSpent" value="40626000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -959,14 +1014,15 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.42857143" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.42795232" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.32900432" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3517316" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3531961" />
       <window_info anchor="bottom" id="Spring" order="8" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2553305" />
@@ -977,7 +1033,6 @@
       <window_info anchor="bottom" id="Build" order="7" weight="0.32900432" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" order="8" weight="0.32900432" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -992,7 +1047,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="15" />
+      <option name="time" value="17" />
     </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
@@ -1141,13 +1196,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/cn/gotohope/forgive/test/service/GameServiceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/gotohope/forgive/controller/index/HomeController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
@@ -1170,13 +1218,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="287">
           <caret line="90" column="26" lean-forward="true" selection-start-line="90" selection-start-column="26" selection-end-line="90" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/gotohope/forgive/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
         </state>
       </provider>
     </entry>
@@ -1208,6 +1249,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="621">
           <caret line="25" column="18" lean-forward="true" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1243,20 +1287,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="6" column="73" lean-forward="true" selection-start-line="6" selection-start-column="73" selection-end-line="6" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/cn/gotohope/forgive/test/service/UserServiceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="30" column="9" lean-forward="true" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/gotohope/forgive/service/impl/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1308,17 +1338,57 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/data.properties">
+    <entry file="file://$PROJECT_DIR$/src/test/java/cn/gotohope/forgive/test/service/GameServiceTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="12" lean-forward="true" selection-start-column="12" selection-end-column="12" />
+        <state relative-caret-position="650">
+          <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/gotohope/forgive/util/Config.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
-          <caret line="3" column="36" lean-forward="true" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
+          <caret line="3" column="34" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/gotohope/forgive/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/cn/gotohope/forgive/test/service/UserServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="445">
+          <caret line="26" column="58" selection-start-line="26" selection-start-column="58" selection-end-line="26" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/gotohope/forgive/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="47" column="5" lean-forward="true" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/data.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
         </state>
       </provider>
     </entry>
