@@ -1,0 +1,62 @@
+[
+  {
+    "id": "5h8d6g",
+    "name": "普通块",
+    "description": "欢迎来到原谅块"
+  },
+  {
+    "id": "dj8a8d",
+    "name": "密集块",
+    "column_number": 5,
+    "row_number": 6,
+    "description": "你将在六行五列中体验不一样的游戏"
+  },
+  {
+    "id": "lpmnj5",
+    "name": "狂野块",
+    "a": 0.0001,
+    "v": 0.09,
+    "description": "准备好狂野一把了吗"
+  },
+  {
+    "id": "d6e15n",
+    "name": "原谅块",
+    "forgive_bound": 2,
+    "description": "一大波原谅块即将来临……"
+  },
+  {
+    "id": "9y9z9o",
+    "name": "经典模式30秒",
+    "time_limit": 30,
+    "auto_scroll": false,
+    "has_forgive_till": false,
+    "description": "在经典模式中体验经典的味道"
+  },
+  {
+    "id": "fu3xaa",
+    "name": "经典模式30秒(快)",
+    "time_limit": 30,
+    "auto_scroll": false,
+    "scroll_v": 0.2,
+    "has_forgive_till": false,
+    "description": "如果你手速够快这将更适合你"
+  },
+  {
+    "id": "j50dd2",
+    "name": "经典模式30秒(慢)",
+    "time_limit": 30,
+    "auto_scroll": false,
+    "scroll_v": 0.1,
+    "has_forgive_till": false,
+    "description": "如果只想过把瘾来试试这个吧"
+  },
+  {
+    "id": "7hd2h4",
+    "name": "经典模式30秒(瞬间)",
+    "time_limit": 30,
+    "auto_scroll": false,
+    "scroll_v": 1.0,
+    "has_forgive_till": false,
+    "description": "我在哪里？我从哪里来？"
+  }
+]

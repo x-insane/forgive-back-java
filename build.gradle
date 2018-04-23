@@ -1,0 +1,22 @@
+group 'cn.gotohope.forgive'
+version '1.0'
+
+apply plugin: 'java'
+apply plugin: 'war'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    providedCompile 'javax.servlet:javax.servlet-api:3.1.0'
+    compile 'javax.servlet:jstl:1.2'
+    testCompile 'junit:junit:4.12'
+    testCompile 'org.springframework:spring-test:5.0.5.RELEASE'
+    compile 'org.springframework:spring-webmvc:5.0.5.RELEASE'
+    compile 'org.apache.logging.log4j:log4j-core:2.11.0'
+    compile 'com.google.code.gson:gson:2.8.2'
+    compile 'com.yunpian.sdk:yunpian-java-sdk:1.2.7'
+}
